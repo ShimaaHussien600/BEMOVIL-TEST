@@ -16,9 +16,7 @@ export default class Entrypoint extends Component {
             <View>
                 <StatusBar
                     backgroundColor="transparent"
-                    translucent={true}
-
-                    barStyle="light-content" />
+                    barStyle="dark-content" />
                 <Navigator />
             </View>
         );

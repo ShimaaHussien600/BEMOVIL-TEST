@@ -2,9 +2,9 @@ import React from 'react';
 import { StyleProp, ViewStyle } from 'react-native';
 import { SvgIcon } from './svgIcon';
 
-export type IconsName = "library" |
-    'appStetting' |
-    'mony' |
+export type IconsName = "help" |
+    'group' |
+    'logo' |
     'TAndConditions' |
     'privacyPolicy' |
     'logout' |
@@ -53,9 +53,9 @@ export type IconsProps = {
 
 function Icons(props: IconsProps) {
     switch (props.name) {
-        case 'library':
-        case 'music':
-        case 'live':
+        case 'help':
+        case 'group':
+        case 'logo':
         case 'search':
         case 'upgrade':
         case 'notification':

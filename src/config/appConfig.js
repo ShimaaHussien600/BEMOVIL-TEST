@@ -17,11 +17,14 @@ export const config = {
         regular: isIos() ? "GESSTextLight-Light" : "ArbFONTS-GE_SS_TEXT_LIGHT"
     },
     colors: {
+        WHITE: "white",
+        CHERRY:"#eb062a",
+
         RED:"#FF2222",
         DARK_GRAY: "#4A4A4A",
         BLUE2: "#4267B2",
         BLACK: "#000",
-        WHITE: "white",
+        
         GRAY1: "#8B8B8B",
         ORANGE: "#FFDD00",
         ORANGE_GRADIENT: ['#FFDD00', '#FF8800'],

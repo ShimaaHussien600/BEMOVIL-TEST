@@ -4,7 +4,7 @@ import styles from './styles';
 import { config } from '../../config/appConfig';
 import { RFValue } from 'react-native-responsive-fontsize';
 import { Icons, IconsName } from '../../config/icons';
-import { FontFamilyType } from '../../components/types';
+import { FontFamilyType } from '../../component/types';
 import {Text_} from '../Text/Text';
 
 type TabButtonsProps = {
